@@ -15,4 +15,58 @@ body,.snake{
     grid-template-columns: repeat(20,20px);
     grid-template-rows: repeat(20,20px);
     margin: 5px;
-}\
+}
+.game-border-1{
+    border: rgb(58, 88, 58) solid 10px;
+    border-radius: 30px;
+    box-shadow: inset 0 0 0 10px rgb(36, 58, 36);
+}
+.game-border-2{
+    border: rgb(41, 100, 41) solid 8px;
+    border-radius: 26px;
+    box-shadow: inset 0 0 0 10px rgb(47, 104, 47);
+}
+.game-border-3{
+    border: rgb(47, 107, 47) solid 30px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 5px rgb(62, 117, 62);
+}
+#instructions-text{
+    position: absolute;
+    top:60%;
+    color: #333;
+    width: 300px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 30px;
+    margin: 0;
+}
+.scores{
+    display: flex;
+    justify-content: space-between;
+}
+#score{
+    color: #abb78a;
+}
+#scores,#highscore{
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 10px 0;
+}
+#highscore{
+    color: #d8ddca;
+    display: none;
+}
+.game-border-3,#logo{
+    background-color: #c4cfa3;
+}
+.snake{
+    border: #5a5a5a 1px dotted;
+}
+.food{
+    background-color: white;
+    border: #999 5px solid;
+}
+#logo{
+    position: absolute;
+}
